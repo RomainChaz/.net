@@ -70,7 +70,7 @@ namespace WSConvertisseur.Controllers
                 return NotFound();
             }
             devises[index] = devise;
-            return StatusCode(HttpStatusCode.NoContent);
+            return StatusCode(HttpStatusCode.OK);
         }
 
         // DELETE: api/Devise/5
